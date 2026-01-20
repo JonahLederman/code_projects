@@ -20,3 +20,28 @@ into usable objects.
 To use dijkstraAlgo.py, the main way is by using the algorithm() method defined in the class. To do so, use the v_count() method with your file as an input, in order to find the number of vertexes, do the same with the read_graph() method, and then input 0.
 The .py file should already be set up for the dummy data from the TestData folder, just open up the .py file and run it.
 
+Output for DijkstraAlgo.py:
+Easy dataset: 
+-------------------------------------------
+-------------------------------------------
+Counters: 
+Number of steps: 16
+Amount of heap pops: 8
+Amount of heap pushes: 7
+How long the program took to run: 0.0 seconds.
+Challenge dataset: 
+-------------------------------------------
+-------------------------------------------
+Counters:
+Number of steps: 3734
+Amount of heap pops: 525
+Amount of heap pushes: 524
+How long the program took to run: 0.0010066032409667969 seconds.
+Sparse dataset:
+-------------------------------------------
+-------------------------------------------
+Counters:
+Number of steps: 12
+Amount of heap pops: 7
+Amount of heap pushes: 6
+How long the program took to run: 0.0 seconds.
