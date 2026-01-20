@@ -77,11 +77,11 @@ def algorithm(V, edges, source):
                     heapq.heappush(priority_queue,(new_dist, y))
                     heappush += 1
 
-    #Printing out the edge distances
+    #Printing out the edge distances (debugging)
     print("-------------------------------------------")
-    print("Printing out edge distances from source vertice:")
-    for i in range(V):
-         print(f"Distance from {0} to {i}: {edge_dist[i]}")
+    #print("Printing out edge distances from source vertice:")
+    #for i in range(V):
+    #     print(f"Distance from {0} to {i}: {edge_dist[i]}")
     
     elapsed_time = time.time() - start_time
     #Print out counters
@@ -104,4 +104,5 @@ algorithm(v_count(easyproblem), read_graph(easyproblem), 0)
 print("Challenge dataset: ")
 algorithm(v_count(hardproblem), read_graph(hardproblem), 0) 
 print("Sparse dataset: ")
+
 algorithm(v_count(sparseproblem), read_graph(sparseproblem), 0) 
